@@ -6,7 +6,7 @@
 // ---------
 $palette: (
   'black': #090909,
-  'dark-grey': #232323,
+  'dark-grey': #FCC519, // was oringally 232323
   'charcoal': #29303b,
   'slate-grey': #686868,
   'battleship-grey': #686f7a,
@@ -16,7 +16,7 @@ $palette: (
   'smoke': #fdfdfd,
   'white': #ffffff,
   'denim': #0067b7,
-  'firebrick6': #f72c30,
+  'firebrick6': #0CB3A2, // orginally it was f72c30
   'purplish-grey': #726c74,
   'grey32': #525151,
   'grey59': #969696,
@@ -74,7 +74,7 @@ $battleship-grey-scheme: (
 $indianred3-scheme: (
   font-color: r-color('white'),
   link-color: r-color('light-grey'),
-  svg-color: r-color('white'),
+  svg-color: r-color('white'), 
   background: r-color('indianred3'),
   hover-font-color: r-color('white'),
   hover-background: r-color('firebrick6'),
