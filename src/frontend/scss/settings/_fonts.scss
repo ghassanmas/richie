@@ -3,12 +3,12 @@
 //
 
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Montserrat:wght@300;500;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 // Font family class helpers by name
 $r-font-family-hind: 'Hind', sans-serif;
 $r-font-family-montserrat: 'Montserrat', sans-serif;
-
+$r-font-family-sans: 'Open Sans', sans-serif;
 $r-fonts: (
-  hind: $r-font-family-hind,
-  montserrat: $r-font-family-montserrat,
+  hind: $r-font-family-sans,
+  montserrat: $r-font-family-sans,
 );
