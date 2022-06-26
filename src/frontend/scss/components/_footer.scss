@@ -2,7 +2,8 @@
 .body-footer {
   padding: 0;
   color: r-theme-val(body-footer, base-color);
-  background: r-theme-val(body-footer, base-background);
+  background: #44525F;
+  //r-theme-val(body-footer, base-background);
 
   &__container {
     @include make-container();
@@ -242,7 +243,7 @@
         }
 
         &:after {
-          border-bottom-color: rgba(255, 255, 255, 0);
+          border-bottom-color: #8E9393;// rgba(255, 255, 255, 0);
           border-top-color: white;
         }
 
@@ -259,7 +260,8 @@
 .body-mentions {
   padding: 0.8rem 0;
   color: r-theme-val(body-mentions, base-color);
-  background: r-theme-val(body-mentions, base-background);
+  background: #0CB3A2;
+  //r-theme-val(body-mentions, base-background);
 
   &__container {
     @include make-container();
