@@ -7,7 +7,7 @@ services:
       - env.d/development/postgresql
 
   mysql:
-    image: mysql:5.6
+    image: mariadb:10.1
     env_file:
       - env.d/development/mysql
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci
