@@ -166,6 +166,8 @@
     @for $i from 1 through 6 {
       h#{$i},
       .h#{$i} {
+        color: #fff;
+        /*
         @if map-get($scheme, $props-prefix + 'h#{$i}-color') == null {
           color: $font-color;
         } @else if map-get($scheme, $props-prefix + 'h#{$i}-color') == false {
@@ -173,6 +175,7 @@
         } @else {
           color: map-get($scheme, $props-prefix + 'h#{$i}-color');
         }
+        */
       }
     }
   }

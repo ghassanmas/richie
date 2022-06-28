@@ -318,7 +318,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
           @include font-size($font-size-base);
           height: auto;
           padding: 0.8rem 1rem;
-          color: r-theme-val(subheader, search-input-color);
+          color: #fff; // before it was r-theme-val(subheader, search-input-color);
           background: r-theme-val(subheader, search-input-background);
           @if r-theme-val(subheader, search-input-border) {
             border: $onepixel solid r-theme-val(subheader, search-input-border);
@@ -326,7 +326,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
           border-radius: $border-radius;
 
           &::placeholder {
-            color: r-theme-val(subheader, search-input-placeholder);
+            color: #fff; // before it was r-theme-val(subheader, search-input-placeholder);
           }
         }
       }
