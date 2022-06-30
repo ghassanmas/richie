@@ -157,6 +157,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
       @include sv-flex(1, 0, $r-course-subheader-aside);
       padding: 3rem 1rem;
     }
+   color: #fff;
   }
 
   // Video container aside main content
@@ -188,6 +189,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
       width: 100%;
       border: 0;
     }
+    color: #fff;
   }
 
   // Annex content essentially for media
