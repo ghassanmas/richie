@@ -21,6 +21,9 @@
   &__title {
     @include detail-title;
     text-align: left;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgb(40, 49, 74);
   }
 
   &__empty {

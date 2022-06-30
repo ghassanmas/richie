@@ -406,7 +406,7 @@
                 {% endif %}
             {% endwith %}
         {% endblock programs %}
-
+<!-- 
         {% block team %}
             {% if current_page.publisher_is_draft or not current_page|is_empty_placeholder:"course_team" %}
             <div class="course-detail__team course-detail__block course-detail__block--lightest">
@@ -444,7 +444,7 @@
             </div>
             {% endif %}
         {% endblock organizations %}
-
+-->
         {% block information %}
             {% if current_page.publisher_is_draft or not current_page|is_empty_placeholder:"course_information" %}
                 <div class="course-detail__row course-detail__information">
@@ -452,7 +452,7 @@
                 </div>
             {% endif %}
         {% endblock information %}
-
+<!--
         {% block licenses %}
             {% if current_page.publisher_is_draft or not current_page|is_empty_placeholder:"course_license_content" or not current_page|is_empty_placeholder:"course_license_participation" %}
             <div class="course-detail__license course-detail__block course-detail__block--divider">
@@ -484,6 +484,7 @@
             </div>
             {% endif %}
         {% endblock licenses %}
+    -->
     </div>
     {% endblock fragment_relations %}
 

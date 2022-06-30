@@ -87,7 +87,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
 
     .category-badges__item,
     .characteristic__item {
-      color: inherit;
+      color: #fff;
 
       @include media-breakpoint-down(lg) {
         margin-bottom: 0.5rem;
@@ -136,6 +136,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
     padding-right: 0;
     margin-top: 0.5rem;
     font-size: 1rem;
+    color: #fff;
   }
 
   &__enrollment-count {
@@ -144,6 +145,8 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
     padding-right: 0;
     margin-top: 0.5rem;
     font-size: 1rem;
+    color: #fff;
+
   }
 
   // Aside subheader container alongside 'main' content
@@ -215,6 +218,7 @@ $r-subheader-search-title-width: 19rem !default; // aligned on computed search r
       width: 100%;
       margin: 0 auto;
       border-radius: $border-radius-lg;
+      fill: #fff;
     }
 
     &--locket {
