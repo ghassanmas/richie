@@ -109,18 +109,18 @@ FILTERS_CONFIGURATION = [
             "term": "categories",
         },
     ),
-    (
-        "richie.apps.search.filter_definitions.IndexableHierarchicalFilterDefinition",
-        {
-            "human_name": _("Organizations"),
-            "is_autocompletable": True,
-            "is_searchable": True,
-            "min_doc_count": 0,
-            "name": "organizations",
-            "position": 4,
-            "reverse_id": "organizations",
-        },
-    ),
+   # (
+   #     "richie.apps.search.filter_definitions.IndexableHierarchicalFilterDefinition",
+   #     {
+    #        "human_name": _("Organizations"),
+    #        "is_autocompletable": True,
+    #        "is_searchable": True,
+    #        "min_doc_count": 0,
+    #        "name": "organizations",
+    #        "position": 4,
+     #       "reverse_id": "organizations",
+     #   },
+  #  ),
     (
         "richie.apps.search.filter_definitions.IndexableFilterDefinition",
         {
